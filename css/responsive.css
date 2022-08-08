@@ -1,0 +1,69 @@
+@media screen and (max-width: 1160px) {
+    main {
+        padding: 0 10rem;
+    }
+
+    section {
+        padding: 5rem 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    main {
+        padding: 0 7rem;
+    }
+
+    .login-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-wrapper .logo-area {
+        text-align: center;
+        width: 40rem;
+    }
+
+    .login-wrapper .form-area{
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        padding: 0 2.5rem;
+    }
+
+    .login-wrapper .logo-area {
+        width: 35rem;
+    }
+
+    .login-wrapper .form-area{
+        width: 35rem;
+    }
+
+    .signup-btn{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        padding: 0 1rem;
+    }
+
+    .login-wrapper .logo-area {
+        width: 30rem;
+    }
+
+    .login-wrapper .form-area{
+        width: 30rem;
+    }
+}
